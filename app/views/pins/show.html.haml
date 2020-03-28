@@ -1,0 +1,6 @@
+%h1= @pin.title
+%p= @pin.description
+
+= link_to '<button type="button">Back</button>'.html_safe, root_path
+= link_to '<button type="button">Edit</button>'.html_safe, edit_pin_path
+= link_to '<button type="button">Delete</button>'.html_safe, pin_path, method: :delete, data: { confirm: "Are you sure" }
