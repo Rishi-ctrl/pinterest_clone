@@ -2,7 +2,7 @@
 	- if @pin.errors.any?
 		#errors
 			%h2
-				=plurarlize(@pin.errors.count, "error")
+				=pluralize(@pin.errors.count, "error")
 				prevented this Pin from saving
 			%ul
 				- @pin.errors.full_messages.each do |msg|
