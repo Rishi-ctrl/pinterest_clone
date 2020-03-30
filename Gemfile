@@ -19,6 +19,11 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+#Masonry will rock your world! Layout
+gem 'masonry-rails', '~> 0.2.4'
+#CoffeeScript adapter for the Rails asset pipeline.
+gem 'coffee-rails', '~> 5.0'
+gem 'jquery-turbolinks', '~> 2.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
