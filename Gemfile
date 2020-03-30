@@ -42,6 +42,9 @@ gem 'simple_form', '~> 5.0', '>= 5.0.2'
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
+# Use Active Storage variant
+gem 'image_processing', '~> 1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
