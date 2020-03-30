@@ -4,6 +4,7 @@ class Pin < ApplicationRecord
 
 
 	validate :image_type
+	validates :title, :description, presence: true
 
 	private
 
